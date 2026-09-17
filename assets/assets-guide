@@ -1,0 +1,222 @@
+# GAME ASSET PACK — PROJECT PHONIX
+
+Create a complete 2D game asset pack.
+
+Game:
+Retro Arcade Space Shooter
+
+Style:
+Classic Arcade Pixel Art
+
+Global Rules:
+- Top-down view
+- Pixel art only
+- Transparent background (except background asset)
+- Crisp pixel edges
+- Clean silhouettes
+- Symmetrical design where appropriate
+- No anti-aliasing
+- No blur
+- No realism
+- No 3D
+- No text
+- No UI
+- 8–16 colors maximum
+- Strong readability at gameplay scale
+- Consistent visual language across all assets
+- Keep safe padding around sprite edges
+- Export PNG
+
+Color Direction:
+Blue → Player
+Red / Orange → Enemies
+Green → PowerUps
+Dark Blue → Environment
+Yellow / White → Effects
+
+================================
+
+1. PLAYER SHIP
+
+File:
+spaceship.png
+
+Canvas:
+64×64
+
+Occupancy:
+70–80% of canvas
+
+Description:
+Classic arcade spaceship.
+Top-down.
+Blue body.
+Light blue cockpit.
+Cyan engine.
+Compact triangular silhouette.
+Small side wings.
+Readable at small scale.
+
+================================
+
+2. PLAYER BULLET
+
+File:
+bullet.png
+
+Canvas:
+8×8
+
+Occupancy:
+40–60%
+
+Description:
+Small energy projectile.
+Bright cyan.
+Thin vertical shape.
+Minimal glow.
+Fast and lightweight.
+
+================================
+
+3. NORMAL ENEMY
+
+File:
+enemy.png
+
+Canvas:
+64×64
+
+Occupancy:
+70–80%
+
+Description:
+Enemy spaceship.
+Top-down.
+Red body.
+Sharp aggressive silhouette.
+Looks fast and disposable.
+
+================================
+
+4. TANK ENEMY
+
+File:
+tank.png
+
+Canvas:
+82×82
+
+Occupancy:
+80–90%
+
+Description:
+Heavy armored enemy.
+Dark red body.
+Large silhouette.
+Visible armor sections.
+Slow but dangerous.
+
+================================
+
+5. TANK ENEMY BULLET
+
+File:
+tank-bullet.png
+
+Canvas:
+12×12
+
+Occupancy:
+50–70%
+
+Description:
+Heavy plasma projectile.
+Orange-red.
+Bright center.
+Feels powerful.
+
+================================
+
+6. ENEMY EXPLOSION
+
+File:
+explosion-spritesheet.png
+
+Canvas:
+500×50
+
+Frames:
+10 horizontal frames
+
+Frame Size:
+50×50
+
+Description:
+Explosion animation.
+Frame 1:
+Small bright flash
+
+Frame 2–6:
+Rapid expansion
+
+Frame 7–10:
+Smoke and fade
+
+Colors:
+White → Yellow → Orange → Dark Smoke
+
+Transparent background.
+
+================================
+
+7. SPACE BACKGROUND
+
+File:
+background.png
+
+Canvas:
+640×480
+
+Description:
+Deep space.
+Dark blue.
+Sparse stars.
+Very subtle nebula.
+Minimal detail.
+Gameplay remains readable.
+
+================================
+
+8. EXTRA LIFE POWERUP
+
+File:
+extra-life-powerup.png
+
+Canvas:
+24×24
+
+Occupancy:
+60–70%
+
+Description:
+Floating collectible.
+Green energy core.
+White plus symbol.
+Small glow.
+Friendly and rewarding.
+
+================================
+
+NEGATIVE PROMPT
+
+No realistic textures
+No gradients
+No cinematic lighting
+No perspective
+No oversized details
+No bloom
+No blur
+No thick outlines
+No background elements inside sprites
+No cropped sprites
